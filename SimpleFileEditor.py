@@ -5,9 +5,10 @@
 PyQt5 project 1
 
 This program will open a file using a QFileDialog. When the user
-clicks 'read', it will display the contents of the file to the screen.
+clicks 'read', it will display the contents of the file to the screen in a QTextEdit.
 The user can make edits to the file and then save it to a location by
-clicking the 'save' button or in the file taskbar.
+clicking the 'save' button or in the file taskbar. The user can also simply type
+in the QTextEdit box and save it, making a brand new file.
 
 If the file has not been saved after opening, the program will double
 check if the user really wants to quit, if the quit or x is clicked.
